@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+body {
+  height: 100vh;
+  border-top:1px solid transparent;
+}
+
+#header {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.main_body {
+  height: calc(100vh - 32px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#palindrome_display {
+  height: 28px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
